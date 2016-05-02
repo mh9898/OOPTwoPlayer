@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7124E5A11CD7AF430055E883 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7124E5A01CD7AF430055E883 /* AppDelegate.swift */; };
+		7124E5A31CD7AF430055E883 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7124E5A21CD7AF430055E883 /* ViewController.swift */; };
+		7124E5A61CD7AF430055E883 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7124E5A41CD7AF430055E883 /* Main.storyboard */; };
+		7124E5A81CD7AF430055E883 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7124E5A71CD7AF430055E883 /* Assets.xcassets */; };
+		7124E5AB1CD7AF430055E883 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7124E5A91CD7AF430055E883 /* LaunchScreen.storyboard */; };
+		7124E5B61CD7AF430055E883 /* OOPTwoPlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7124E5B51CD7AF430055E883 /* OOPTwoPlayerTests.swift */; };
+		7124E5C11CD7AF430055E883 /* OOPTwoPlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7124E5C01CD7AF430055E883 /* OOPTwoPlayerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7124E5B21CD7AF430055E883 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7124E5951CD7AF430055E883 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7124E59C1CD7AF430055E883;
+			remoteInfo = OOPTwoPlayer;
+		};
+		7124E5BD1CD7AF430055E883 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7124E5951CD7AF430055E883 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7124E59C1CD7AF430055E883;
+			remoteInfo = OOPTwoPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7124E59D1CD7AF430055E883 /* OOPTwoPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OOPTwoPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7124E5A01CD7AF430055E883 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7124E5A21CD7AF430055E883 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7124E5A51CD7AF430055E883 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7124E5A71CD7AF430055E883 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7124E5AA1CD7AF430055E883 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7124E5AC1CD7AF430055E883 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7124E5B11CD7AF430055E883 /* OOPTwoPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OOPTwoPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7124E5B51CD7AF430055E883 /* OOPTwoPlayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OOPTwoPlayerTests.swift; sourceTree = "<group>"; };
+		7124E5B71CD7AF430055E883 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7124E5BC1CD7AF430055E883 /* OOPTwoPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OOPTwoPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7124E5C01CD7AF430055E883 /* OOPTwoPlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OOPTwoPlayerUITests.swift; sourceTree = "<group>"; };
+		7124E5C21CD7AF430055E883 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7124E59A1CD7AF430055E883 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7124E5AE1CD7AF430055E883 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7124E5B91CD7AF430055E883 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7124E5941CD7AF430055E883 = {
+			isa = PBXGroup;
+			children = (
+				7124E59F1CD7AF430055E883 /* OOPTwoPlayer */,
+				7124E5B41CD7AF430055E883 /* OOPTwoPlayerTests */,
+				7124E5BF1CD7AF430055E883 /* OOPTwoPlayerUITests */,
+				7124E59E1CD7AF430055E883 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7124E59E1CD7AF430055E883 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7124E59D1CD7AF430055E883 /* OOPTwoPlayer.app */,
+				7124E5B11CD7AF430055E883 /* OOPTwoPlayerTests.xctest */,
+				7124E5BC1CD7AF430055E883 /* OOPTwoPlayerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7124E59F1CD7AF430055E883 /* OOPTwoPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				7124E5A01CD7AF430055E883 /* AppDelegate.swift */,
+				7124E5A21CD7AF430055E883 /* ViewController.swift */,
+				7124E5A41CD7AF430055E883 /* Main.storyboard */,
+				7124E5A71CD7AF430055E883 /* Assets.xcassets */,
+				7124E5A91CD7AF430055E883 /* LaunchScreen.storyboard */,
+				7124E5AC1CD7AF430055E883 /* Info.plist */,
+			);
+			path = OOPTwoPlayer;
+			sourceTree = "<group>";
+		};
+		7124E5B41CD7AF430055E883 /* OOPTwoPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				7124E5B51CD7AF430055E883 /* OOPTwoPlayerTests.swift */,
+				7124E5B71CD7AF430055E883 /* Info.plist */,
+			);
+			path = OOPTwoPlayerTests;
+			sourceTree = "<group>";
+		};
+		7124E5BF1CD7AF430055E883 /* OOPTwoPlayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7124E5C01CD7AF430055E883 /* OOPTwoPlayerUITests.swift */,
+				7124E5C21CD7AF430055E883 /* Info.plist */,
+			);
+			path = OOPTwoPlayerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7124E59C1CD7AF430055E883 /* OOPTwoPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7124E5C51CD7AF430055E883 /* Build configuration list for PBXNativeTarget "OOPTwoPlayer" */;
+			buildPhases = (
+				7124E5991CD7AF430055E883 /* Sources */,
+				7124E59A1CD7AF430055E883 /* Frameworks */,
+				7124E59B1CD7AF430055E883 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OOPTwoPlayer;
+			productName = OOPTwoPlayer;
+			productReference = 7124E59D1CD7AF430055E883 /* OOPTwoPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7124E5B01CD7AF430055E883 /* OOPTwoPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7124E5C81CD7AF430055E883 /* Build configuration list for PBXNativeTarget "OOPTwoPlayerTests" */;
+			buildPhases = (
+				7124E5AD1CD7AF430055E883 /* Sources */,
+				7124E5AE1CD7AF430055E883 /* Frameworks */,
+				7124E5AF1CD7AF430055E883 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7124E5B31CD7AF430055E883 /* PBXTargetDependency */,
+			);
+			name = OOPTwoPlayerTests;
+			productName = OOPTwoPlayerTests;
+			productReference = 7124E5B11CD7AF430055E883 /* OOPTwoPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7124E5BB1CD7AF430055E883 /* OOPTwoPlayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7124E5CB1CD7AF430055E883 /* Build configuration list for PBXNativeTarget "OOPTwoPlayerUITests" */;
+			buildPhases = (
+				7124E5B81CD7AF430055E883 /* Sources */,
+				7124E5B91CD7AF430055E883 /* Frameworks */,
+				7124E5BA1CD7AF430055E883 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7124E5BE1CD7AF430055E883 /* PBXTargetDependency */,
+			);
+			name = OOPTwoPlayerUITests;
+			productName = OOPTwoPlayerUITests;
+			productReference = 7124E5BC1CD7AF430055E883 /* OOPTwoPlayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7124E5951CD7AF430055E883 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = MicahelH;
+				TargetAttributes = {
+					7124E59C1CD7AF430055E883 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					7124E5B01CD7AF430055E883 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 7124E59C1CD7AF430055E883;
+					};
+					7124E5BB1CD7AF430055E883 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 7124E59C1CD7AF430055E883;
+					};
+				};
+			};
+			buildConfigurationList = 7124E5981CD7AF430055E883 /* Build configuration list for PBXProject "OOPTwoPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7124E5941CD7AF430055E883;
+			productRefGroup = 7124E59E1CD7AF430055E883 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7124E59C1CD7AF430055E883 /* OOPTwoPlayer */,
+				7124E5B01CD7AF430055E883 /* OOPTwoPlayerTests */,
+				7124E5BB1CD7AF430055E883 /* OOPTwoPlayerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7124E59B1CD7AF430055E883 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7124E5AB1CD7AF430055E883 /* LaunchScreen.storyboard in Resources */,
+				7124E5A81CD7AF430055E883 /* Assets.xcassets in Resources */,
+				7124E5A61CD7AF430055E883 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7124E5AF1CD7AF430055E883 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7124E5BA1CD7AF430055E883 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7124E5991CD7AF430055E883 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7124E5A31CD7AF430055E883 /* ViewController.swift in Sources */,
+				7124E5A11CD7AF430055E883 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7124E5AD1CD7AF430055E883 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7124E5B61CD7AF430055E883 /* OOPTwoPlayerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7124E5B81CD7AF430055E883 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7124E5C11CD7AF430055E883 /* OOPTwoPlayerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7124E5B31CD7AF430055E883 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7124E59C1CD7AF430055E883 /* OOPTwoPlayer */;
+			targetProxy = 7124E5B21CD7AF430055E883 /* PBXContainerItemProxy */;
+		};
+		7124E5BE1CD7AF430055E883 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7124E59C1CD7AF430055E883 /* OOPTwoPlayer */;
+			targetProxy = 7124E5BD1CD7AF430055E883 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7124E5A41CD7AF430055E883 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7124E5A51CD7AF430055E883 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7124E5A91CD7AF430055E883 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7124E5AA1CD7AF430055E883 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7124E5C31CD7AF430055E883 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7124E5C41CD7AF430055E883 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7124E5C61CD7AF430055E883 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OOPTwoPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mh.OOPTwoPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7124E5C71CD7AF430055E883 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OOPTwoPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mh.OOPTwoPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7124E5C91CD7AF430055E883 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OOPTwoPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mh.OOPTwoPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OOPTwoPlayer.app/OOPTwoPlayer";
+			};
+			name = Debug;
+		};
+		7124E5CA1CD7AF430055E883 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OOPTwoPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mh.OOPTwoPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OOPTwoPlayer.app/OOPTwoPlayer";
+			};
+			name = Release;
+		};
+		7124E5CC1CD7AF430055E883 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = OOPTwoPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mh.OOPTwoPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OOPTwoPlayer;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		7124E5CD1CD7AF430055E883 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = OOPTwoPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mh.OOPTwoPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OOPTwoPlayer;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7124E5981CD7AF430055E883 /* Build configuration list for PBXProject "OOPTwoPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7124E5C31CD7AF430055E883 /* Debug */,
+				7124E5C41CD7AF430055E883 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7124E5C51CD7AF430055E883 /* Build configuration list for PBXNativeTarget "OOPTwoPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7124E5C61CD7AF430055E883 /* Debug */,
+				7124E5C71CD7AF430055E883 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7124E5C81CD7AF430055E883 /* Build configuration list for PBXNativeTarget "OOPTwoPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7124E5C91CD7AF430055E883 /* Debug */,
+				7124E5CA1CD7AF430055E883 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7124E5CB1CD7AF430055E883 /* Build configuration list for PBXNativeTarget "OOPTwoPlayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7124E5CC1CD7AF430055E883 /* Debug */,
+				7124E5CD1CD7AF430055E883 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7124E5951CD7AF430055E883 /* Project object */;
+}
