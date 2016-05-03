@@ -14,6 +14,9 @@
 		7124E5AB1CD7AF430055E883 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7124E5A91CD7AF430055E883 /* LaunchScreen.storyboard */; };
 		7124E5B61CD7AF430055E883 /* OOPTwoPlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7124E5B51CD7AF430055E883 /* OOPTwoPlayerTests.swift */; };
 		7124E5C11CD7AF430055E883 /* OOPTwoPlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7124E5C01CD7AF430055E883 /* OOPTwoPlayerUITests.swift */; };
+		7124E5CF1CD7AF650055E883 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7124E5CE1CD7AF650055E883 /* Character.swift */; };
+		7124E5D11CD7C0630055E883 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7124E5D01CD7C0630055E883 /* Player.swift */; };
+		7124E5D31CD7C3A80055E883 /* Enemy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7124E5D21CD7C3A80055E883 /* Enemy.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		7124E5BC1CD7AF430055E883 /* OOPTwoPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OOPTwoPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7124E5C01CD7AF430055E883 /* OOPTwoPlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OOPTwoPlayerUITests.swift; sourceTree = "<group>"; };
 		7124E5C21CD7AF430055E883 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7124E5CE1CD7AF650055E883 /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		7124E5D01CD7C0630055E883 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		7124E5D21CD7C3A80055E883 /* Enemy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enemy.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +106,9 @@
 				7124E5A01CD7AF430055E883 /* AppDelegate.swift */,
 				7124E5A21CD7AF430055E883 /* ViewController.swift */,
 				7124E5A41CD7AF430055E883 /* Main.storyboard */,
+				7124E5CE1CD7AF650055E883 /* Character.swift */,
+				7124E5D01CD7C0630055E883 /* Player.swift */,
+				7124E5D21CD7C3A80055E883 /* Enemy.swift */,
 				7124E5A71CD7AF430055E883 /* Assets.xcassets */,
 				7124E5A91CD7AF430055E883 /* LaunchScreen.storyboard */,
 				7124E5AC1CD7AF430055E883 /* Info.plist */,
@@ -256,6 +265,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7124E5D11CD7C0630055E883 /* Player.swift in Sources */,
+				7124E5D31CD7C3A80055E883 /* Enemy.swift in Sources */,
+				7124E5CF1CD7AF650055E883 /* Character.swift in Sources */,
 				7124E5A31CD7AF430055E883 /* ViewController.swift in Sources */,
 				7124E5A11CD7AF430055E883 /* AppDelegate.swift in Sources */,
 			);
